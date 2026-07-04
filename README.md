@@ -1,7 +1,7 @@
 # type-checker
 
-[![CI](https://github.com/pavel-genai/type-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/pavel-genai/type-checker/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/pavel-genai/type-checker/branch/main/graph/badge.svg)](https://codecov.io/gh/pavel-genai/type-checker)
+[![CI](https://github.com/ai-pavel/type-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-pavel/type-checker/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ai-pavel/type-checker/branch/main/graph/badge.svg)](https://codecov.io/gh/ai-pavel/type-checker)
 
 A Hindley-Milner type inference engine implemented in Haskell.
 
