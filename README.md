@@ -1,5 +1,7 @@
 # type-checker
 
+[![CI](https://github.com/pavel-genai/type-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/pavel-genai/type-checker/actions/workflows/ci.yml)
+
 A Hindley-Milner type inference engine implemented in Haskell.
 
 ## Features
