@@ -1,0 +1,40 @@
+name:                type-checker
+version:             0.1.0.0
+synopsis:            Hindley-Milner type inference engine
+description:         A lambda calculus type inference engine implementing Algorithm W
+license:             MIT
+author:              Pavel
+maintainer:          pavel@example.com
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- mtl
+- megaparsec
+- text
+- parser-combinators
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - Infer.Ast
+    - Infer.Types
+    - Infer.Unify
+    - Infer.Infer
+    - Infer.Parser
+
+executables:
+  type-checker-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - type-checker
+    - haskeline
+
+tests:
+  type-checker-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+    - type-checker
+    - hspec

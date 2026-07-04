@@ -1,0 +1,13 @@
+.stack-work/
+*.cabal
+*~
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+.HSenv
+.cabal-sandbox/
+cabal.sandbox.config
+dist/
+dist-new/
+.ghc.environment.*
