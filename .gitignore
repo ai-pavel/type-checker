@@ -11,3 +11,4 @@ cabal.sandbox.config
 dist/
 dist-new/
 .ghc.environment.*
+stack.yaml.lock
